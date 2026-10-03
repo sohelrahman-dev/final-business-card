@@ -1,0 +1,88 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@keyframes slideUpFade {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.card {
+    width: 550px;
+    margin: 0 auto;
+    padding: 20px 20px 35px 20px;
+    display: flex;
+    text-align: center;
+    background: #232323;
+    color: #ffffff;
+    border-radius: 13px;
+    border-bottom: 8px solid #FFD700;
+    animation: slideUpFade 1s ease-out forwards;
+
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.avatar {
+    width: 230px;
+    margin: -1px 70px -15px -2px;
+    border-radius: 8px;
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+.card-shadow {
+    box-shadow: 15px 15px 3px #6c757d;
+}
+
+.social-link {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social {
+    color: #ffffff;
+    width: 40px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+.social:hover {
+    background-color: #ffffff;
+    color: #232323;
+}
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
